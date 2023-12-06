@@ -7,7 +7,7 @@ from datetime import time,date
 model = pickle.load(open('new_model.pkl','rb'))
 
 def main():
-  st.markdown("<h1 style='text-align: center; color: White;background-color:#e84343'>Debreczeni Károly Predictor</h1>", unsafe_allow_html=True)
+  st.markdown("<h1 style='text-align: center; color: White;background-color:#e84343'>Debreczeni Károly Balázs Predictor</h1>", unsafe_allow_html=True)
 
   #'Eliminations', 'Assists', 'Placed', 'Revives', 'Hits', 'day_of_month', 'month', 'hour', 'is_high', 'is_sober', 'Accuracy_numeric_values'
   date = st.date_input("Select the date of the match",value=datetime.date(2023, 4, 14))
